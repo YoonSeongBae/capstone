@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class FirstScreen extends JFrame {
     public FirstScreen() {
         setTitle("초, 중, 고급 선택");
-        setSize(800, 1000);
+        setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JRadioButton beginnerButton = new JRadioButton("초급");
